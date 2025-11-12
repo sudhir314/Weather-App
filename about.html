@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherPro - About</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="wi wi-cloud" style="margin-right:8px; color:#ffd700;"></i> WeatherPro
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="forecast.html">Forecast</a></li>
+          <li class="nav-item"><a class="nav-link" href="map.html">Maps</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center" style="max-width: 700px;">
+    <!-- NEW: Added animation -->
+    <h2 class="animate-slide-up">About WeatherPro</h2>
+    <p class="mt-4 fs-5 animate-slide-up" style="animation-delay: 0.2s;">WeatherPro is your ultimate weather application, providing accurate current weather, 7-day forecasts, and interactive maps. Stay informed about the weather anywhere in the world with an intuitive interface and real-time updates.</p>
+    <p class="fs-6 mt-4 animate-slide-up" style="animation-delay: 0.4s;">© 2025 WeatherPro Team</p>
+  </div>
+
+  <footer class="mt-5 mb-3">© 2025 WeatherPro. All Rights Reserved.</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
